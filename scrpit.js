@@ -4,10 +4,10 @@
 console.log(this);
 
 //   function  is window**********************
-function abcd(){
+function abc(){
     console.log(this);
 }
-abcd();
+abc();
 // inside method is the same object****************
 var obj= {
     name: function(){
